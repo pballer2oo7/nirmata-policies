@@ -4,7 +4,7 @@ metadata:
   name: check-deprecated-apis
   annotations:
     policies.kyverno.io/title: Check deprecated APIs
-    policies.kyverno.io/category: Best Practices
+    policies.kyverno.io/category: PCI Best Practices
     policies.kyverno.io/subject: Kubernetes APIs
     policies.kyverno.io/description: >-
       Kubernetes APIs are sometimes deprecated and removed after a few releases. 

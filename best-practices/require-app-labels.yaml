@@ -3,7 +3,7 @@ kind: ClusterPolicy
 metadata:
   name: require-labels
   annotations:
-    policies.kyverno.io/category: "Best Practices"
+    policies.kyverno.io/category: PCI Best Practices
     policies.kyverno.io/description: >-
       Kubernetes recommends a set of standard labels for applications. 
       See https://kubernetes.io/docs/concepts/overview/working-with-objects/common-labels/

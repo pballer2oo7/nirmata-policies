@@ -4,7 +4,7 @@ metadata:
   name: require-pod-probes
   annotations:
     policies.kyverno.io/title: "Require liveness and readiness probes"
-    policies.kyverno.io/category: "Best Practices"
+    policies.kyverno.io/category: PCI Best Practices
     policies.kyverno.io/description: >-
       Liveness and readiness probes need to be configured to correctly manage a pods lifecycle 
       during deployments, restarts, and upgrades. For each pod, a periodic `livenessProbe` is 

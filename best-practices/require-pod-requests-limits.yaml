@@ -4,7 +4,7 @@ metadata:
   name: require-pod-requests-limits
   annotations:
     policies.kyverno.io/title: "Require pod requests and limits"
-    policies.kyverno.io/category: "Best Practices"
+    policies.kyverno.io/category: PCI Best Practices
     policies.kyverno.io/description: >-
       As application workloads share cluster resources, it is important to limit resources 
       requested and consumed by each pod. It is recommended to require 'resources.requests' 
